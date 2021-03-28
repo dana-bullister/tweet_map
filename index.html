@@ -27,6 +27,10 @@
       container: 'map', // container id
       style: 'mapbox://styles/dbullist/ckmp6dcc90rzx17o1j9n8foav'
     });
+
+    map.on('load', function() {
+      console.log("yo");
+    });
   </script>
 
 </body>
