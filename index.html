@@ -14,9 +14,8 @@
   <div id='map'></div>
 
   <div class='map-overlay' id='features'>
-    <h2>US population density</h2>
     <div id='pd'>
-      <p>Hover over a state!</p>
+      <p></p>
     </div>
   </div>
 
@@ -35,7 +34,7 @@
         if (tweets.length > 0) {
           document.getElementById('pd').innerHTML = '<h3><strong>' + tweets[0].properties.text + '</strong></h3><p><strong><em>' + tweets[0].properties.name + '</strong> people per square mile</em></p>';
         } else {
-          document.getElementById('pd').innerHTML = '<p>Hover over a state!</p>';
+          document.getElementById('pd').innerHTML = "";
         }
       });
     });
