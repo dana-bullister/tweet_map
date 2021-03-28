@@ -32,7 +32,8 @@
           layers: ['stop-asian-hate-tweets']
         });
         if (tweets.length > 0) {
-          document.getElementById('pd').innerHTML = '<h3><strong>' + tweets[0].properties.text + '</strong></h3><p><strong><em>' + tweets[0].properties.name + '</strong> people per square mile</em></p>';
+          document.getElementById('pd').innerHTML = tweets[0].properties.tweet_created_at + tweets[0].properties.user_screen_name + tweets[0]
+            .properties.text;
         } else {
           document.getElementById('pd').innerHTML = "";
         }
