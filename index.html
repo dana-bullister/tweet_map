@@ -28,6 +28,16 @@
     });
 
     map.on('load', function() {
+      map.on('mousemove', function(e) {
+        var tweets = map.queryRenderedFeatures(e.point, {
+          layers: ['stop-asian-hate-tweets']
+        });
+        if (tweets.length > 0) {
+          document.getElementById('pd').innerHTML = '<h3><strong>' + tweets[0].properties.text + '</strong></h3><p><strong><em>' + tweets[0].properties.name + '</strong> people per square mile</em></p>';
+        } else {
+          document.getElementById('pd').innerHTML = '<p>Hover over a state!</p>';
+        }
+      });
     });
   </script>
 
