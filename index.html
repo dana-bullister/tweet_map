@@ -12,6 +12,7 @@
 <body>
 
   <div id='map'></div>
+  <div id='map2'></div>
 
   <div class='map-overlay' id='features'>
     <div id='pd'>
@@ -37,6 +38,18 @@
         } else {
           document.getElementById('pd').innerHTML = "";
         }
+      });
+    });
+    var map2 = new mapboxgl.Map({
+      container: 'map2', // container id
+      style: 'mapbox://styles/dbullist/ckmtsqn2v2d8417mynb16irxn'
+    });
+
+    map2.on('load', function() {
+      map2.on('mousemove', function(e) {
+        var tweets = map2.queryRenderedFeatures(e.point, {
+          layers: ['stop-asian-hate-tweets']
+        });
       });
     });
   </script>
