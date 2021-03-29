@@ -35,7 +35,7 @@
     map.on('load', function() {
       map.on('mousemove', function(e) {
         var tweets = map.queryRenderedFeatures(e.point, {
-          layers: ['stop-asian-hate-tweets']
+          layers: ['stop-asian-hate-tweets-5']
         });
         if (tweets.length > 0) {
           document.getElementById('pd').innerHTML = tweets[0].properties.tweet_created_at + tweets[0].properties.user_screen_name + tweets[0]
@@ -54,7 +54,7 @@
     map2.on('load', function() {
       map2.on('mousemove', function(e) {
         var tweets = map2.queryRenderedFeatures(e.point, {
-          layers: ['stop-asian-hate-tweets']
+          layers: ['stop-asian-hate-tweets-5']
         });
       });
     });
@@ -80,7 +80,7 @@
     map4.on('load', function() {
       map4.on('mousemove', function(e) {
         var tweets = map4.queryRenderedFeatures(e.point, {
-          layers: ['stop-asian-hate-tweets']
+          layers: ['stop-asian-hate-tweets-5']
         });
       });
     });
@@ -93,7 +93,7 @@
     map5.on('load', function() {
       map5.on('mousemove', function(e) {
         var tweets = map5.queryRenderedFeatures(e.point, {
-          layers: ['stop-asian-hate-tweets']
+          layers: ['stop-asian-hate-tweets-5']
         });
       });
     });
@@ -106,7 +106,7 @@
     map6.on('load', function() {
       map6.on('mousemove', function(e) {
         var tweets = map6.queryRenderedFeatures(e.point, {
-          layers: ['stop-asian-hate-tweets']
+          layers: ['stop-asian-hate-tweets-5']
         });
       });
     });
