@@ -13,6 +13,10 @@ body {
   width: 100%;
   text-align: center;
 }
+p {
+  margin-left: 10em;
+  margin-right: 10em;
+}
 h2,
 h3 {
   margin: 10px;
