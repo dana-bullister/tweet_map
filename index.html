@@ -13,6 +13,10 @@
 
   <div id='map'></div>
   <div id='map2'></div>
+  <div id='map3'></div>
+  <div id='map4'></div>
+  <div id='map5'></div>
+  <div id='map6'></div>
 
   <div class='map-overlay' id='features'>
     <div id='pd'>
@@ -50,6 +54,58 @@
     map2.on('load', function() {
       map2.on('mousemove', function(e) {
         var tweets = map2.queryRenderedFeatures(e.point, {
+          layers: ['stop-asian-hate-tweets']
+        });
+      });
+    });
+
+    var map3 = new mapboxgl.Map({
+      container: 'map3', // container id
+      style: 'mapbox://styles/dbullist/ckmp6dcc90rzx17o1j9n8foav'
+    });
+
+    map3.on('load', function() {
+      map3.on('mousemove', function(e) {
+        var tweets = map3.queryRenderedFeatures(e.point, {
+          layers: ['stop-asian-hate-tweets-5']
+        });
+      });
+    });
+
+    var map4 = new mapboxgl.Map({
+      container: 'map4', // container id
+      style: 'mapbox://styles/dbullist/ckmtzzme908qs18o4mlmaiabm'
+    });
+
+    map4.on('load', function() {
+      map4.on('mousemove', function(e) {
+        var tweets = map4.queryRenderedFeatures(e.point, {
+          layers: ['stop-asian-hate-tweets']
+        });
+      });
+    });
+
+    var map5 = new mapboxgl.Map({
+      container: 'map5', // container id
+      style: 'mapbox://styles/dbullist/ckmu01km34iz917pim3oazga0'
+    });
+
+    map5.on('load', function() {
+      map5.on('mousemove', function(e) {
+        var tweets = map5.queryRenderedFeatures(e.point, {
+          layers: ['stop-asian-hate-tweets']
+        });
+      });
+    });
+
+    var map6 = new mapboxgl.Map({
+      container: 'map6', // container id
+      style: 'mapbox://styles/dbullist/ckmu03jvf1h2d17lt2mrggwf1'
+    });
+
+    map6.on('load', function() {
+      map6.on('mousemove', function(e) {
+        var tweets = map6.queryRenderedFeatures(e.point, {
           layers: ['stop-asian-hate-tweets']
         });
       });
