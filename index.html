@@ -29,7 +29,7 @@
     map.on('load', function() {
       map.on('mousemove', function(e) {
         var tweets = map.queryRenderedFeatures(e.point, {
-          layers: ['stop-asian-hate-tweets-5']
+          layers: ['stop-asian-hate-tweets']
         });
       });
     });
@@ -42,7 +42,7 @@
     map2.on('load', function() {
       map2.on('mousemove', function(e) {
         var tweets = map2.queryRenderedFeatures(e.point, {
-          layers: ['stop-asian-hate-tweets-5']
+          layers: ['stop-asian-hate-tweets']
         });
       });
     });
