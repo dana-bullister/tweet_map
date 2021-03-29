@@ -37,16 +37,6 @@ h3 {
   height: 40em;
 }
 
-#map3 {
-  /*position: absolute;
-  top: 0;
-  bottom: 0;*/
-  margin: auto;
-  margin-top: 2em;
-  width: 40em;
-  height: 20em;
-}
-
 #map4 {
   /*position: absolute;
   top: 0;
@@ -68,6 +58,16 @@ h3 {
 }
 
 #map6 {
+  /*position: absolute;
+  top: 0;
+  bottom: 0;*/
+  margin: auto;
+  margin-top: 2em;
+  width: 40em;
+  height: 20em;
+}
+
+#map3 {
   /*position: absolute;
   top: 0;
   bottom: 0;*/
