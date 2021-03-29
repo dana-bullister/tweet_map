@@ -23,17 +23,14 @@ p {
 * Create a position for the map
 * on the page */
 #map {
-  position: absolute;
+  /*position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 0;*/
   width: 50em;
   height: 40em;
 }
 
 #map2 {
-  position: absolute;
-  top: 50em;
-  bottom: 50em;
   width: 50em;
   height: 40em;
 }
