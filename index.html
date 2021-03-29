@@ -37,12 +37,6 @@
         var tweets = map.queryRenderedFeatures(e.point, {
           layers: ['stop-asian-hate-tweets-5']
         });
-        if (tweets.length > 0) {
-          document.getElementById('pd').innerHTML = tweets[0].properties.tweet_created_at + tweets[0].properties.user_screen_name + tweets[0]
-            .properties.text;
-        } else {
-          document.getElementById('pd').innerHTML = "";
-        }
       });
     });
 
