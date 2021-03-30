@@ -90,6 +90,14 @@ h3 {
   height: 20em;
 }
 
+#tweets-histogram {
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 4em;
+  width: 40em;
+  height: 20em;
+}
+
 #features {
   top: 0;
   height: 100px;
