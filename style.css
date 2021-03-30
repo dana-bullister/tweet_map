@@ -37,6 +37,13 @@ p {
   line-height: 1.8em;
 }
 
+.series-header {
+  padding: 0;
+  padding-left: 5em;
+  font-size: .8em;
+  text-align: center;
+}
+
 #descr1 {
   margin-bottom: 1em;
 }
