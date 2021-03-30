@@ -12,7 +12,9 @@ body {
 .text {
   width: 100%;
   text-align: center;
+  padding: 2em;
 }
+
 .text * {
   margin: auto;
   max-width: 60em;
@@ -20,7 +22,6 @@ body {
 
 .map-large {
   margin: auto;
-  margin-top: 2em;
   width: 80em;
   height: 40em;
 }
