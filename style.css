@@ -14,98 +14,32 @@ body {
   text-align: center;
 }
 .text * {
-  margin-left: 10em;
-  margin-right: 10em;
-}
-h2,
-h3 {
-  margin: 10px;
-  font-size: 1.2em;
+  margin: auto;
+  max-width: 60em;
 }
 
-h3 {
-  font-size: 1em;
-}
-
-/**
-* Create a position for the map
-* on the page */
-#map {
-  /*position: absolute;
-  top: 0;
-  bottom: 0;*/
+.map-large {
   margin: auto;
   margin-top: 2em;
   width: 80em;
   height: 40em;
 }
 
-#map2 {
-  /*position: absolute;
-  top: 0;
-  bottom: 0;*/
-  margin: auto;
-  margin-top: 2em;
-  width: 80em;
-  height: 40em;
-}
-
-#map3 {
-  /*position: absolute;
-  top: 0;
-  bottom: 0;*/
+.map-small {
   margin: auto;
   margin-top: .5em;
   width: 40em;
   height: 20em;
 }
 
-#map4 {
-  /*position: absolute;
-  top: 0;
-  bottom: 0;*/
-  margin: auto;
-  margin-top: .5em;
-  width: 40em;
-  height: 20em;
-}
-
-#map5 {
-  /*position: absolute;
-  top: 0;
-  bottom: 0;*/
-  margin: auto;
-  margin-top: .5em;
-  width: 40em;
-  height: 20em;
-}
-
-#map6 {
-  /*position: absolute;
-  top: 0;
-  bottom: 0;*/
-  margin: auto;
-  margin-top: .5em;
-  width: 40em;
-  height: 20em;
-}
-
-#tweets-histogram {
+#tweets-histogram-div {
   margin: auto;
   margin-top: 1em;
-  margin-bottom: 4em;
-  padding: 4em;
+  margin-bottom: 2em;
   width: 40em;
-  height: 20em;
+  height: 30em;
 }
 
 #attribution {
   text-align: left;
-}
-
-#features {
-  top: 0;
-  height: 100px;
-  margin-top: 20px;
-  width: 250px;
 }
