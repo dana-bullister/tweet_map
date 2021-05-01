@@ -51,8 +51,17 @@ p {
 }
 
 #descr2 {
-  margin-top: 1em;
+  margin-top: 0em;
   margin-bottom: 1em;
+}
+
+#descr3 {
+  margin-bottom: 1.5em;
+}
+
+#descr4 {
+  margin-top: .5em;
+  margin-bottom: 1.2em;
 }
 
 .map-large {
@@ -69,11 +78,16 @@ p {
 }
 
 #tweets-histogram-div {
+  width: 100%;
+  text-align: center;
+  padding: 0em 2em 0em .75em;
+}
+
+#tweets-histogram {
   margin: auto;
-  margin-top: 1em;
-  margin-bottom: 0;
-  width: 40em;
-  height: 27em;
+  text-align: left;
+  max-width: 56em; /*47em;*/
+  line-height: 1.8em;
 }
 
 #attribution {
@@ -81,7 +95,8 @@ p {
   line-height: 1.8em;
   font-size: .8em;
   text-align: center;
-  margin-top: 10em;
+  margin-top: 12em;
+  margin-bottom: 3em;
 }
 
 #attribution > * {
